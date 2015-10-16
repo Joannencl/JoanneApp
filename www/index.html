@@ -6,7 +6,7 @@
 <script src="js/bootstrap.min.js"></script>
   <meta charset="utf-8">
   <title>Test Mobile App</title>
-  </head>
+</head>
 <body>
 	<nav class="navbar navbar-inverse">
 	 <div class="container-fluid">
@@ -29,19 +29,29 @@
 		</div> 
 		</div>   
 	</nav>
-	<div class="container">
-	<ul class="list-group">
-	  <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
-	  <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
-	  <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
-	  <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
-	</ul>
-	<div class="list-group">
-	  <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
-	  <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
-	  <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
-	  <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
-	</div>
+	<div class="container-fluid">
+	  <form>
+	  <div class="form-group">
+		<label for="exampleInputEmail1">address</label>
+		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	  </div>
+	  <div class="form-group">
+		<div class="dropdown">
+			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				Dropdown
+				<span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li><a href="#">Kuala Lumpur</a></li>
+				<li><a href="#">Selangor</a></li>
+				<li><a href="#">Johor</a></li>
+				<li><a href="#">Penang</a></li>
+			  </ul>
+		 </div>
+	  </div>
+	  
+	  <button type="submit" class="btn btn-default">Search</button>
+	</form>
 	</div>
 </body>
 </html>
